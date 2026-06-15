@@ -5,7 +5,6 @@ from airflow.sdk import dag, task
 import datetime
 from config import PAGILA_DATA_FILE_LOCATION, PAGILA_SCHEMA_FILE_LOCATION
 
-
 @dag(dag_id="database_pagila_fill",
      start_date=datetime.datetime(2026, 5, 28),
      schedule="@once",

@@ -8,8 +8,8 @@ PAGILA_SCHEMA_FILE_LOCATION = SQL_PAGILA_FILES_LOCATION.joinpath("pagila-schema.
 PAGILA_DATA_FILE_LOCATION = SQL_PAGILA_FILES_LOCATION.joinpath("pagila-data.sql")
 
 SQL_SAKILA_FILES_LOCATION: Path = Path(os.getenv("SQL_SAKILA_FILES", ""))
-SAKILA_SCHEMA_FILE_URL = "https://raw.githubusercontent.com/jOOQ/sakila/refs/heads/main/postgres-sakila-db/postgres-sakila-schema.sql"
-SAKILA_DATA_FILE_URL = "https://raw.githubusercontent.com/jOOQ/sakila/refs/heads/main/postgres-sakila-db/postgres-sakila-insert-data.sql"
+SAKILA_SCHEMA_FILE_URL = "https://raw.githubusercontent.com/jOOQ/sakila/refs/heads/main/mysql-sakila-db/mysql-sakila-schema.sql"
+SAKILA_DATA_FILE_URL = "https://raw.githubusercontent.com/jOOQ/sakila/refs/heads/main/mysql-sakila-db/mysql-sakila-insert-data.sql"
 SAKILA_SCHEMA_FILE_LOCATION = SQL_SAKILA_FILES_LOCATION.joinpath("sakila-schema.sql")
 SAKILA_DATA_FILE_LOCATION = SQL_SAKILA_FILES_LOCATION.joinpath("sakila-data.sql")
 
